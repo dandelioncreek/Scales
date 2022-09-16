@@ -38,9 +38,9 @@ void scale(float x, float y, float siz) {
     beginShape();
     curveVertex(x, y);
     curveVertex(x, y);
-    curveVertex(x+50+diam/(800*siz), y+20+diam/(800*siz));
-    curveVertex(x+40+diam/(800*siz), y+60+diam/(800*siz));
-    curveVertex(x+diam/(800*siz), y+40+diam/(800*siz));
+    curveVertex(x+50+diam, y+20+diam);
+    curveVertex(x+40+diam, y+60+diam);
+    curveVertex(x+diam, y+40+diam);
     curveVertex(x, y);
     curveVertex(x, y);
     endShape();
